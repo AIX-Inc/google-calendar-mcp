@@ -1,5 +1,5 @@
 {
-  "name": "@leolihuanyu/google-calendar-mcp",
+  "name": "@aix-inc/google-calendar-mcp",
   "version": "1.4.9",
   "description": "Google Calendar MCP Server with extensive support for calendar management",
   "type": "module",
@@ -24,13 +24,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leolihuanyu/google-calendar-mcp.git"
+    "url": "git+https://github.com/AIX-Inc/google-calendar-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/leolihuanyu/google-calendar-mcp/issues"
+    "url": "https://github.com/AIX-Inc/google-calendar-mcp/issues"
   },
-  "homepage": "https://github.com/leolihuanyu/google-calendar-mcp#readme",
-  "author": "Leolihuanyu",
+  "homepage": "https://github.com/AIX-Inc/google-calendar-mcp#readme",
+  "author": "AIX-Inc",
   "license": "MIT",
   "scripts": {
     "start": "node build/index.js",
