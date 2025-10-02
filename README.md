@@ -49,7 +49,7 @@ Add to your Claude Desktop configuration:
   "mcpServers": {
     "google-calendar": {
       "command": "npx",
-      "args": ["@cocal/google-calendar-mcp"],
+      "args": ["@aix-inc/google-calendar-mcp"],
       "env": {
         "GOOGLE_OAUTH_CREDENTIALS": "/path/to/your/gcp-oauth.keys.json"
       }
@@ -63,7 +63,7 @@ Add to your Claude Desktop configuration:
 **Option 2: Local Installation**
 
 ```bash
-git clone https://github.com/nspady/google-calendar-mcp.git
+git clone https://github.com/AIX-Inc/google-calendar-mcp.git
 cd google-calendar-mcp
 npm install
 npm run build
@@ -74,7 +74,7 @@ Then add to Claude Desktop config using the local path or by specifying the path
 **Option 3: Docker Installation**
 
 ```bash
-git clone https://github.com/nspady/google-calendar-mcp.git
+git clone https://github.com/AIX-Inc/google-calendar-mcp.git
 cd google-calendar-mcp
 cp /path/to/your/gcp-oauth.keys.json .
 docker compose up
@@ -96,7 +96,7 @@ If you're in test mode (default), tokens expire after 7 days. If you are using a
 **For npx users:**
 ```bash
 export GOOGLE_OAUTH_CREDENTIALS="/path/to/your/gcp-oauth.keys.json"
-npx @cocal/google-calendar-mcp auth
+npx @aix-inc/google-calendar-mcp auth
 ```
 
 **For local installation:**
@@ -208,7 +208,7 @@ For re-authentication or troubleshooting:
 ```bash
 # For npx installations
 export GOOGLE_OAUTH_CREDENTIALS="/path/to/your/credentials.json"
-npx @cocal/google-calendar-mcp auth
+npx @aix-inc/google-calendar-mcp auth
 
 # For local installations
 npm run auth
